@@ -1,0 +1,111 @@
+/* Landing Page Container */
+.landing-page {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* Header */
+.landing-header {
+  background-color: #1e40af;
+  color: white;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.landing-header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.landing-header .description {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cta-button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button.primary {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+}
+
+.cta-button.primary:hover {
+  background-color: #1e40af;
+  transform: translateY(-2px);
+}
+
+.cta-button.secondary {
+  background-color: #fbbf24;
+  color: white;
+  border: none;
+}
+
+.cta-button.secondary:hover {
+  background-color: #f59e0b;
+  transform: translateY(-2px);
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 40px;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.feature {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+.feature h2 {
+  font-size: 1.5rem;
+  color: #1e40af;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Footer */
+.footer {
+  margin-top: 60px;
+  background-color: #1e40af;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}

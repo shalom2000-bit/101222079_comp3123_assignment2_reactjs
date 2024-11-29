@@ -1,0 +1,108 @@
+/* EmployeeForm.css */
+
+/* Container for the form */
+.employee-form-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Individual form fields (input containers) */
+  .form-field {
+    margin-bottom: 16px;
+  }
+  
+  /* Label styling */
+  .form-label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  /* Input fields */
+  .form-input {
+    width: 95%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Input focus effect */
+  .form-input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(72, 182, 57, 0.3);
+  }
+  
+  /* Action buttons container */
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+  }
+  
+  /* Button styles */
+  .form-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Cancel button */
+  .cancel-btn {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Submit button */
+  .submit-btn {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Focus and hover effect for submit button */
+  .submit-btn:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 768px) {
+    .employee-form-container {
+      padding: 16px;
+    }
+  
+    .form-btn {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
+  
+
+  .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mt-4{
+    margin-top: 40px;
+  }
